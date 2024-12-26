@@ -10,3 +10,4 @@ main
 *.xml
 *.iml
 *.txt
+/.idea/
