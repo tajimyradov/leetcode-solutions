@@ -6,7 +6,7 @@ This repository contains solutions to various LeetCode problems, implemented in 
 
 - [Getting Started](#getting-started)
 - [Solutions](#solutions)
-- [Run]
+- [Run](#run)
 
 ## Getting Started
 
