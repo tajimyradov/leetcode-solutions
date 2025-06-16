@@ -13,7 +13,7 @@ This repository contains solutions to various LeetCode problems, implemented in 
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/leetcode-solutions.git
+git clone https://github.com/tajimyradov/leetcode-solutions.git
 cd leetcode-solutions
 ```
 
