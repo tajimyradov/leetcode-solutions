@@ -11,4 +11,4 @@ run/%:
 
 clean:
 	rm -rf $(BUILD_DIR)
-	find . -type f \( -name '*.out' -o -name 'main' -o -name 'main.exe' \) -delete
+	find . -type f \( -name '*.out' -o -name 'main.exe' \) -delete
