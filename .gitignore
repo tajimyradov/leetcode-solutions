@@ -14,3 +14,4 @@ main
 *.out
 *.plist
 main.dSYM
+/vscode/
