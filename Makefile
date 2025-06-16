@@ -4,9 +4,14 @@ BUILD_DIR = build
 
 .PHONY: clean run
 
-run/%:
+run-cpp/%:
 	@mkdir -p $(BUILD_DIR)
 	$(CXX) $(CXXFLAGS) -o $(BUILD_DIR)/$* $*/main.cpp
+	./$(BUILD_DIR)/$*
+
+run-go/%:
+	@mkdir -p $(BUILD_DIR)
+	go build -o $(BUILD_DIR)/$* $*/main.go
 	./$(BUILD_DIR)/$*
 
 clean:
